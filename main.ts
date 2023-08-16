@@ -24,7 +24,7 @@ const handler = (request: Request) => {
     status: 200,
     headers: {
       "content-type": " image/svg+xml",
-      "cache-control": "max-age=0, stale-while-revalidate=86400",
+      "cache-control": "max-age=0",
     },
   });
 };
